@@ -11,15 +11,25 @@
 
   #xy.coord
    X-Y座標
-   %canvas.viewer
+   .group
+   #abs.coord1
+    絶対座標系
+    %canvas#xy-abs.viewer{width:"300px",height:"300px"}
+   #relative.coord2
+    相対座標系
+    %canvas#xy-rel.viewer{width:"300px",height:"300px"}
+   .clearfix
   #polar.coord
    極座標
    .group
    #abs.coord1
     絶対座標系
-    %canvas.viewer
+    %canvas#pol-abs.viewer{width:"300px",height:"300px"}
    #relative.coord2
     相対座標系
-    %canvas.viewer
+    %canvas#pol-rel.viewer{width:"300px",height:"300px"}
    .clearfix
   .clearfix
+
+
+
