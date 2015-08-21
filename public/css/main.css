@@ -1,0 +1,26 @@
+body {
+  margin: 20px;
+}
+
+.coord {
+  float:left;
+  margin-left: 150px;
+  font-size:200%;
+}
+
+.coord1 {
+  float:left;
+  margin-left: 50px;
+  font-size:80%;
+}
+
+.coord2 {
+  float:left;
+  margin-left: 150px;
+  font-size:80%;
+}
+
+.clearfix{
+  clear:both;
+}
+
