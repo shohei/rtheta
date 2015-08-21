@@ -2,22 +2,31 @@ body {
   margin: 20px;
 }
 
+canvas.viewer{
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
 .coord {
   float:left;
   margin-left: 150px;
   font-size:200%;
+  vertical-align: top;
 }
 
 .coord1 {
   float:left;
   margin-left: 50px;
   font-size:80%;
+  vertical-align: top;
 }
 
 .coord2 {
   float:left;
   margin-left: 150px;
   font-size:80%;
+  vertical-align: top;
 }
 
 .clearfix{
